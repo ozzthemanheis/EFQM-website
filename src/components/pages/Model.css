@@ -1,0 +1,63 @@
+.all{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.modelintro >h3{
+    font-size:24px;
+    text-align:left;
+    font-style: bold;
+    color: #3a3a3a;
+ }
+ .modelintro > h1{
+     font-size:40px;
+     text-align:center;
+     padding-top:10%;
+     padding-bottom:10%;
+     color: #123274;
+ }
+ .modelintro > h2{
+    font-size:28px;
+    text-align:left;
+    font-style: bold;
+    color: #3a3a3a;
+    padding-top:10%;
+}
+ 
+ .modeltraits >h2{
+     color: #0075f2;
+     font-size:24px;
+ }
+ .modeltraits >h3{
+     font-size:24px;
+     color:#0075aa;
+ 
+ }
+ .modeltraits >p{
+     font-size:24px;
+     color: #3a3a3a;
+ }
+.model-img1{
+    margin-left:24%;
+    width:510px;
+    height:510px;
+}
+ 
+ 
+ 
+ .modeltraits > ul{
+     font-size:24px;
+     color: #3a3a3a;
+ }
+ 
+ @media screen and (max-width: 600px){
+    .all{
+        padding-left:0%;
+        padding-right:0%;
+    }
+    .model-img1{
+        width:200px;
+        height:200px;
+        margin-left:15%;
+        margin-right:20%;
+    }
+ }

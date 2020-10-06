@@ -1,0 +1,74 @@
+
+.what-we-do2{
+  text-align:left;
+  padding-left:15% ;
+  padding-right:15%;
+}
+
+.what-we-do2 > h2  {
+text-align: left;
+font-size: 24px;
+color: #3a3a3a;
+padding-top:3%;
+}
+
+.what-we-do2 > h3  {
+  text-align: left;
+  font-size: 20px;
+  color: #3a3a3a;
+  padding-top:3%;
+  }
+.what-we-do2 > p{
+margin:0px,0px,36px;
+color:#3a3a3a;
+font-size: 24px;
+font-weight: 300;
+line-height: 1.2em;
+text-align: left;
+padding-top:3%;
+
+}
+
+.what-we-do2 > h1 {
+font-size: 40px;
+color: #123274;
+text-align: center;
+padding-top: 10%;
+padding-bottom: 10%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .cards2{
+    justify-content: center;
+  }
+  .cards__item__img2{
+    width: 100px;
+    margin-left: 35%;
+    margin-right:50%;
+  }
+  .cards__item__pic-wrap::after{
+    margin-left: 25%;
+  }
+
+}
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container2 {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items2 {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item2 {
+      margin-bottom: 2rem;
+    }
+  }

@@ -1,0 +1,79 @@
+.all{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.intro >h3{
+   font-size:28px;
+   text-align:center;
+   font-style: bold;
+   color: #3a3a3a;
+   text-align: left;
+}
+.intro > h1{
+    font-size:40px;
+    text-align:center;
+    padding-top:10%;
+    padding-bottom:10%;
+    color: #123274;
+}
+.para1 >p{
+    font-size:25px;
+    line-height: 1.2em;
+    padding-top:5%;
+    color: #3a3a3a;
+}
+.traits >h2{
+    color: #0075f2;
+    font-size:24px;
+   
+}
+.traits >h3{
+    color: #3a3a3a;
+    font-size:24px;
+    font-style: bold;
+}
+.traits >p{
+    font-size:24px;
+    color: #3a3a3a;
+    margin: 0px,0px,36px;
+}
+
+.how-we-do-it{
+    color: #3a3a3a;
+    font-size:24px;
+
+}
+.how-we-do-it> h2{
+    font-size: 24px;
+    color:#0075f2;
+    padding-top:5%;
+}
+.how-we-do-it> p{
+    margin-bottom:5%;
+    font-size: 24px;
+    color:#3a3a3a;
+}
+
+ul{
+    padding-left:10%;
+}
+
+.why >h2{
+    padding-top:30px;
+    padding-bottom:30px;
+    color: #0075f2;
+    font-size:24px;
+}
+.why >p{
+
+    font-size:24px;
+    color: #3a3a3a;
+}
+
+
+@media screen and (max-width: 600px){
+   .all{
+       padding-left:0%;
+       padding-right:0%;
+   }
+}

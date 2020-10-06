@@ -1,0 +1,77 @@
+.contact-intro >h1{
+    text-align: center;
+    color: #123274;
+    font-size:40px;
+    padding-top:10%;
+    padding-bottom: 10%;
+}
+.column >h2{
+    text-align: left;
+    color: #3a3a3a;
+    font-size:24px;
+}
+.contact-intro >a{
+    text-align: left;
+    color: #3a3a3a;
+    font-size:24px;
+}
+.column >p{
+    text-align: left;
+    color: #3a3a3a;
+    font-size:24px;
+}
+.furtherInfo >ul{
+    color: #3a3a3a;
+  
+        padding-left:10%;
+        padding-right:10%;
+   
+}
+.furtherInfo >h1{
+    color: #3a3a3a;
+    padding-top:30px;
+}
+.furtherInfo >ul>a {
+    color: #3a3a3a;
+    text-decoration: none; /* no underline */
+    font-size:24px;
+    margin:10px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float: left;
+    width: 30%;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 33%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
